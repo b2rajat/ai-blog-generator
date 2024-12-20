@@ -22,7 +22,7 @@ Clone the repository and install the dependencies:
 git clone https://github.com/yourusername/ai-blog-generator.git
 cd ai-blog-generator
 npm install
-
+```
 
 Running the Development Server
 Start the development server:
