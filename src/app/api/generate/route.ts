@@ -41,8 +41,9 @@ export async function POST(req: Request) {
     } else {
       return NextResponse.json({ error: 'Failed to generate blog' }, { status: 500 });
     }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
-    console.error('Hugging Face API Error:', error.response?.data || error.message);
+    console.error('Hugging Face API Error:', error?.response?.data || error?.message);
     return NextResponse.json(
       { error: 'Failed to generate blog' },
       { status: 500 }
