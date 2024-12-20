@@ -1,5 +1,7 @@
 # AI Blog Generator
 
+Hosted on : https://ai-blog-generator-self.vercel.app/
+
 This project is an AI-powered blog generation application that utilizes the [EleutherAI GPT-Neo 2.7B model](https://huggingface.co/EleutherAI/gpt-neo-2.7B) from Hugging Face. It allows users to generate blog content based on a given topic, leveraging advanced natural language processing capabilities.
 
 ## Features
